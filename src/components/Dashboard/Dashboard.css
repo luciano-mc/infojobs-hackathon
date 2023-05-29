@@ -1,0 +1,56 @@
+.Dashboard {
+    padding: 0 40px;
+}
+
+.Dashboard__description {
+    font-size: 12px;
+}
+
+.highlighted {
+    color: var(--secondary-color);
+}
+
+.Tabs {
+    margin: 19px 0;
+    width: 80%;
+    background-color: #fff;
+}
+
+.TabList {
+    background-color: #f5f5f5;
+    margin-top: 0;
+    text-align: left;
+    position: relative;
+}
+
+.TabPanel {
+    background-color: #fff;
+    font-family: 'Montserrat';
+}
+
+.react-tabs__tab--selected {
+    border-color: var(--secondary-color);
+}
+
+.totalOffers {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-radius: 45%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.Tab__btns {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+.Tab__btns span {
+    margin: 10px;
+    cursor: pointer;
+    color: var(--third-color);
+    user-select: none;
+}

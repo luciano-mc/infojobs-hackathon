@@ -1,0 +1,50 @@
+.Offers__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.Details {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #00000020;
+    margin: 0 30px;
+    font-family: 'Montserrat';
+    padding-bottom: 50px;
+}
+
+.Details__title {
+    width: 100%;
+    color: var(--secondary-color);
+}
+
+.Details__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Details__box__number {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--last-color);
+}
+
+.Details__box__title {
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--third-color);
+}
+
+.Details__box__total {
+    font-size: 10px;
+}
+
+.Details__description {
+    font-size: 11px;
+    
+}
